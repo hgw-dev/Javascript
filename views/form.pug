@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	form#main(method='post')
+		label(for='todo') TODO:
+		input.todo(type='text' name='todo' value='' placeholder='Enter')
+		if data
+			input.hid(hidden name='data' value=data)
+	br 
+	if data
+		ul.puts
+			- var dt = JSON.parse(data);
+			- dt.forEach(function(elem){
+			li.item= elem
+			- });
