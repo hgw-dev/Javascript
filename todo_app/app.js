@@ -9,7 +9,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.use(bodyParser.urlencoded({ extended: true}));
-app.use('/js', express.static(path.join(__dirname, 'node_modules/AAAcustom_scripts/')));
+app.use('/js', express.static(path.join(__dirname, 'statics/')));
 app.use('/', routes);
 
 module.exports = app;
