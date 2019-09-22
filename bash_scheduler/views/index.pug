@@ -1,0 +1,29 @@
+extends layout
+
+
+block content
+
+	h1 Click on something
+
+	a(href='/schedule') 'Hey click this'
+
+	br
+	form
+		input(type='text' id='name' placeholder='Enter Name')
+		br
+		input(type='text' id='classes' placeholder='Classes')
+		br
+		input(type='text' id='year' placeholder='Year')
+		br
+		input(type='text' id='pet' placeholder='Pet')
+			
+	br
+	btn(onclick='pull_data()') Read
+	br 
+	btn(onclick='save_data()') Write
+	br
+	
+	span(onclick='testSchedule()') Click me
+
+	foot
+		br

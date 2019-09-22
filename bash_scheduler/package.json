@@ -1,0 +1,28 @@
+{
+  "name": "bash_scheduler",
+  "version": "1.0.0",
+  "description": "Fun project to learn NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hl3xb/scheduler.git"
+  },
+  "author": "Hunter Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hl3xb/scheduler/issues"
+  },
+  "homepage": "https://github.com/hl3xb/scheduler#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.0",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.4"
+  }
+}
